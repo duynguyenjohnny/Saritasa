@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ID : TEST_02 : Test 2 .</br>]]>
+    </line>
+    <line>
+      <![CDATA[Open new url : http://qatrial.saritasa-hosting.com/admin</br>]]>
+    </line>
+    <line>
+      <![CDATA[input text to : email</br>]]>
+    </line>
+    <line>
+      <![CDATA[input text to : password</br>]]>
+    </line>
+    <line>
+      <![CDATA[Open new url : http://qatrial.saritasa-hosting.com/admin/products/add</br>]]>
+    </line>
+    <line>
+      <![CDATA[input text to : name</br>]]>
+    </line>
+    <line>
+      <![CDATA[View error : <a href=../screenshots/17_Oct_2016__03_53_50PM.png>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[FAILED]]>
+    </line>
+    <line>
+      <![CDATA[===========================================================================]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30240" started-at="2016-10-17T08:53:20Z" finished-at="2016-10-17T08:53:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30240" started-at="2016-10-17T08:53:20Z" finished-at="2016-10-17T08:53:50Z">
+      <class name="saritasa.test2">
+        <test-method status="PASS" signature="initializeDriver(java.lang.String, java.lang.String)[pri:0, instance:saritasa.test2@1810399e]" name="initializeDriver" is-config="true" duration-ms="11438" started-at="2016-10-17T15:53:20Z" finished-at="2016-10-17T15:53:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://qatrial.saritasa-hosting.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="FAIL" signature="TEST_02()[pri:0, instance:saritasa.test2@1810399e]" name="TEST_02" duration-ms="18094" started-at="2016-10-17T15:53:31Z" finished-at="2016-10-17T15:53:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at saritasa.test2.TEST_02(test2.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[ID : TEST_02 : Test 2 .</br>]]>
+            </line>
+            <line>
+              <![CDATA[Open new url : http://qatrial.saritasa-hosting.com/admin</br>]]>
+            </line>
+            <line>
+              <![CDATA[input text to : email</br>]]>
+            </line>
+            <line>
+              <![CDATA[input text to : password</br>]]>
+            </line>
+            <line>
+              <![CDATA[Open new url : http://qatrial.saritasa-hosting.com/admin/products/add</br>]]>
+            </line>
+            <line>
+              <![CDATA[input text to : name</br>]]>
+            </line>
+            <line>
+              <![CDATA[View error : <a href=../screenshots/17_Oct_2016__03_53_50PM.png>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[FAILED]]>
+            </line>
+            <line>
+              <![CDATA[===========================================================================]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TEST_02 -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:saritasa.test2@1810399e]" name="afterTest" is-config="true" duration-ms="683" started-at="2016-10-17T15:53:49Z" finished-at="2016-10-17T15:53:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TEST_02 status=FAILURE method=test2.TEST_02()[pri:0, instance:saritasa.test2@1810399e] output=ID : TEST_02 : Test 2 .</br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- saritasa.test2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

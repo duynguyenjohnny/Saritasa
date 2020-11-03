@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="384.540">
+  <properties />
+  
+  
+            <testcase name="TC630DaADL_08" time="28.384" classname="com.dts.adminportal.dts.test.DTSAppsDevices630DDevicesList" />
+                <testcase name="TC630DbADL_04" time="51.675" classname="com.dts.adminportal.dts.test.DTSAppsDevices630DDevicesList" />
+                <testcase name="TC630DbADL_06" time="50.964" classname="com.dts.adminportal.dts.test.DTSAppsDevices630DDevicesList" />
+                <testcase name="TC630DaADL_06" time="37.061" classname="com.dts.adminportal.dts.test.DTSAppsDevices630DDevicesList" />
+                <testcase name="TC630DbADL_01" time="39.613" classname="com.dts.adminportal.dts.test.DTSAppsDevices630DDevicesList" />
+                <testcase name="TC630DbADL_08" time="76.479" classname="com.dts.adminportal.dts.test.DTSAppsDevices630DDevicesList" />
+                <testcase name="TC630DaADL_07" time="40.788" classname="com.dts.adminportal.dts.test.DTSAppsDevices630DDevicesList" />
+                <testcase name="TC630DaADL_01" time="59.576" classname="com.dts.adminportal.dts.test.DTSAppsDevices630DDevicesList" />
+      
+</testsuite>

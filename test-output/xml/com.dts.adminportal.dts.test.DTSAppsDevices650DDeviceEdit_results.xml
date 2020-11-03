@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="30"
+           failures="9"
+           errors="0"
+           skipped="0"
+           time="58679.084">
+  <properties />
+            <testcase name="TC650DaDEN_36" time="44.587" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit">
+                <failure type="java.lang.AssertionError"
+                  message="expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  org.testng.Assert.assertTrue(Assert.java:52)
+  com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit.TC650DaDEN_36(DTSAppsDevices650DDeviceEdit.java:1058)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC650DbADE_05" time="79.464" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit">
+                <failure type="org.openqa.selenium.ElementNotVisibleException"
+                  message="Element is not currently visible and so may not be interacted with
+Command duration or timeout: 10.08 seconds
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;PC1416&apos;, ip: &apos;172.18.0.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 882a2f40-51ed-4207-af43-58afe5bf26fc"
+              >
+<![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 10.08 seconds
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'PC1416', ip: '172.18.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 882a2f40-51ed-4207-af43-58afe5bf26fc
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:273)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+  com.dts.adminportal.controller.BaseController.uploadFile(BaseController.java:431)
+  com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit.TC650DbADE_05(DTSAppsDevices650DDeviceEdit.java:1260)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'PC1416', ip: '172.18.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+  <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/anh.ho/AppData/Local/Temp/anonymous2453655428394171791webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)
+  <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/anh.ho/AppData/Local/Temp/anonymous2453655428394171791webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/anh.ho/AppData/Local/Temp/anonymous2453655428394171791webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+  <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/anh.ho/AppData/Local/Temp/anonymous2453655428394171791webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC650DaDEN_31" time="33005.027" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit">
+                <failure type="org.openqa.selenium.remote.UnreachableBrowserException"
+                  message="Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;PC1416&apos;, ip: &apos;172.18.0.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: RemoteWebDriver"
+              >
+<![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'PC1416', ip: '172.18.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: RemoteWebDriver
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
+  org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:504)
+  com.dts.adminportal.controller.BaseController.waitForAjax(BaseController.java:122)
+  com.dts.adminportal.controller.BaseController.click(BaseController.java:258)
+  com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit.TC650DaDEN_31(DTSAppsDevices650DDeviceEdit.java:856)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: java.net.SocketTimeoutException: Read timed out
+  java.net.SocketInputStream.socketRead0(Native Method)
+  java.net.SocketInputStream.socketRead(Unknown Source)
+  java.net.SocketInputStream.read(Unknown Source)
+  java.net.SocketInputStream.read(Unknown Source)
+  org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+  org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+  org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+  org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+  org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+  org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+  org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+  org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+  org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+  org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+  org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+  org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+  org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+  org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+  org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+  org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)
+  org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+  org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)
+  org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:393)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
+  org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:504)
+  com.dts.adminportal.controller.BaseController.waitForAjax(BaseController.java:122)
+  com.dts.adminportal.controller.BaseController.click(BaseController.java:258)
+  com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit.TC650DaDEN_31(DTSAppsDevices650DDeviceEdit.java:856)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC650DaDEN_35" time="19.777" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit">
+                <failure type="java.lang.AssertionError"
+                  message="expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  org.testng.Assert.assertTrue(Assert.java:52)
+  com.dts.adminportal.controller.BaseController.click(BaseController.java:270)
+  com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit.TC650DaDEN_35(DTSAppsDevices650DDeviceEdit.java:1009)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC650DbADE_15" time="79.431" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit">
+                <failure type="java.lang.AssertionError"
+                  message="expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  org.testng.Assert.assertTrue(Assert.java:52)
+  com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit.TC650DbADE_15(DTSAppsDevices650DDeviceEdit.java:1376)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC650DaDEN_23" time="30.678" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit">
+                <failure type="java.lang.AssertionError"
+                  message="expected [7] but found [6]"
+              >
+<![CDATA[java.lang.AssertionError: expected [7] but found [6]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertEquals(Assert.java:125)
+  org.testng.Assert.assertEquals(Assert.java:372)
+  org.testng.Assert.assertEquals(Assert.java:382)
+  com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit.TC650DaDEN_23(DTSAppsDevices650DDeviceEdit.java:484)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC650DbADE_16" time="60.235" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit">
+                <failure type="java.lang.AssertionError"
+                  message="expected [7] but found [6]"
+              >
+<![CDATA[java.lang.AssertionError: expected [7] but found [6]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertEquals(Assert.java:125)
+  org.testng.Assert.assertEquals(Assert.java:372)
+  org.testng.Assert.assertEquals(Assert.java:382)
+  com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit.TC650DbADE_16(DTSAppsDevices650DDeviceEdit.java:1422)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC650DaDEN_29" time="45.000" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit">
+                <failure type="java.lang.AssertionError"
+                  message="expected [25] but found [6]"
+              >
+<![CDATA[java.lang.AssertionError: expected [25] but found [6]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertEquals(Assert.java:125)
+  org.testng.Assert.assertEquals(Assert.java:372)
+  org.testng.Assert.assertEquals(Assert.java:382)
+  com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit.TC650DaDEN_29(DTSAppsDevices650DDeviceEdit.java:776)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC650DaDEN_28" time="24343.326" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit">
+                <failure type="org.openqa.selenium.remote.UnreachableBrowserException"
+                  message="Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;PC1416&apos;, ip: &apos;172.18.0.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: RemoteWebDriver"
+              >
+<![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'PC1416', ip: '172.18.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: RemoteWebDriver
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
+  org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:504)
+  com.dts.adminportal.controller.BaseController.waitForAjax(BaseController.java:122)
+  com.dts.adminportal.controller.BaseController.uploadFile(BaseController.java:453)
+  com.dts.adminportal.controller.ProductController.addProduct(ProductController.java:62)
+  com.dts.adminportal.workflow.ProductWorkflow.createAccessoryPublish(ProductWorkflow.java:347)
+  com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit.TC650DaDEN_28(DTSAppsDevices650DDeviceEdit.java:608)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: java.net.SocketTimeoutException: Read timed out
+  java.net.SocketInputStream.socketRead0(Native Method)
+  java.net.SocketInputStream.socketRead(Unknown Source)
+  java.net.SocketInputStream.read(Unknown Source)
+  java.net.SocketInputStream.read(Unknown Source)
+  org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+  org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+  org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+  org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+  org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+  org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+  org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+  org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+  org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+  org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+  org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:271)
+  org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+  org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+  org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+  org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+  org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)
+  org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+  org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)
+  org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:393)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
+  org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:504)
+  com.dts.adminportal.controller.BaseController.waitForAjax(BaseController.java:122)
+  com.dts.adminportal.controller.BaseController.uploadFile(BaseController.java:453)
+  com.dts.adminportal.controller.ProductController.addProduct(ProductController.java:62)
+  com.dts.adminportal.workflow.ProductWorkflow.createAccessoryPublish(ProductWorkflow.java:347)
+  com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit.TC650DaDEN_28(DTSAppsDevices650DDeviceEdit.java:608)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="TC650DaDEN_30" time="47.221" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_26" time="28.345" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_18" time="27.052" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DbADE_17" time="117.900" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_32" time="28.452" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DbADE_14" time="88.763" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_11" time="44.982" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_01" time="22.667" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_13" time="27.542" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DbADE_19" time="85.044" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_21" time="34.652" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_06" time="51.105" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_34" time="22.498" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DbADE_01" time="75.504" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_12" time="25.827" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_16" time="38.489" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_37" time="31.911" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_10" time="26.851" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_27" time="57.116" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DbADE_20" time="54.550" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+                <testcase name="TC650DaDEN_19" time="35.088" classname="com.dts.adminportal.dts.test.DTSAppsDevices650DDeviceEdit" />
+      
+</testsuite>

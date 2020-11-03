@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="14"
+           failures="7"
+           errors="0"
+           skipped="0"
+           time="1709.266">
+  <properties />
+            <testcase name="TC640DADD_24" time="57.873" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail">
+                <failure type="java.lang.AssertionError"
+                  message="expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  org.testng.Assert.assertTrue(Assert.java:52)
+  com.dts.adminportal.controller.BaseController.click(BaseController.java:270)
+  com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail.TC640DADD_24(DTSAppsDevices640DDeviceDetail.java:970)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC640DADD_15" time="175.925" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail">
+                <failure type="java.lang.AssertionError"
+                  message="expected [TestCorp-Brand1Test5811140] but found []"
+              >
+<![CDATA[java.lang.AssertionError: expected [TestCorp-Brand1Test5811140] but found []
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertEquals(Assert.java:125)
+  org.testng.Assert.assertEquals(Assert.java:178)
+  org.testng.Assert.assertEquals(Assert.java:188)
+  com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail.TC640DADD_15(DTSAppsDevices640DDeviceDetail.java:505)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC640DADD_16" time="382.637" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail">
+                <failure type="java.lang.AssertionError"
+                  message="expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  org.testng.Assert.assertTrue(Assert.java:52)
+  com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail.TC640DADD_16(DTSAppsDevices640DDeviceDetail.java:613)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC640DADD_17" time="170.453" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail">
+                <failure type="java.lang.AssertionError"
+                  message="expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  org.testng.Assert.assertTrue(Assert.java:52)
+  com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail.TC640DADD_17(DTSAppsDevices640DDeviceDetail.java:718)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC640DADD_23" time="52.578" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail">
+                <failure type="java.lang.AssertionError"
+                  message="expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  org.testng.Assert.assertTrue(Assert.java:52)
+  com.dts.adminportal.controller.BaseController.click(BaseController.java:270)
+  com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail.TC640DADD_23(DTSAppsDevices640DDeviceDetail.java:919)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC640DADD_21" time="72.353" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail">
+                <failure type="java.lang.AssertionError"
+                  message="expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertTrue(Assert.java:42)
+  org.testng.Assert.assertTrue(Assert.java:52)
+  com.dts.adminportal.controller.BaseController.click(BaseController.java:270)
+  com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail.TC640DADD_21(DTSAppsDevices640DDeviceDetail.java:830)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC640DADD_14" time="263.788" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail">
+                <failure type="java.lang.AssertionError"
+                  message="expected [TestCorp-Brand1 Test8840903] but found []"
+              >
+<![CDATA[java.lang.AssertionError: expected [TestCorp-Brand1 Test8840903] but found []
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertEquals(Assert.java:125)
+  org.testng.Assert.assertEquals(Assert.java:178)
+  org.testng.Assert.assertEquals(Assert.java:188)
+  com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail.TC640DADD_14(DTSAppsDevices640DDeviceDetail.java:396)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="TC640DADD_12" time="77.012" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail" />
+                <testcase name="TC640DADD_13" time="109.548" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail" />
+                <testcase name="TC640DADD_22" time="49.821" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail" />
+                <testcase name="TC640DADD_02" time="109.128" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail" />
+                <testcase name="TC640DADD_06" time="102.350" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail" />
+                <testcase name="TC640DADD_01" time="64.799" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail" />
+                <testcase name="TC640DADD_20" time="21.001" classname="com.dts.adminportal.dts.test.DTSAppsDevices640DDeviceDetail" />
+      
+</testsuite>

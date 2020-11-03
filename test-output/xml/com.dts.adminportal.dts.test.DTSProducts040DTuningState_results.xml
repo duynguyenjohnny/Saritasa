@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="25"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="2435.597">
+  <properties />
+            <testcase name="TC040DTS_08" time="104.356" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState">
+                <failure type="org.openqa.selenium.ElementNotVisibleException"
+                  message="Element is not currently visible and so may not be interacted with
+Command duration or timeout: 10.05 seconds
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;PC1416&apos;, ip: &apos;172.18.0.105&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9c63fb44-2860-4fbe-a13b-31b556300385"
+              >
+<![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 10.05 seconds
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'PC1416', ip: '172.18.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=41.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9c63fb44-2860-4fbe-a13b-31b556300385
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+  java.lang.reflect.Constructor.newInstance(Unknown Source)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:273)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+  com.dts.adminportal.controller.BaseController.click(BaseController.java:709)
+  com.dts.adminportal.controller.BaseController.selectConfirmationDialogOption(BaseController.java:696)
+  com.dts.adminportal.controller.BaseController.doDelete(BaseController.java:689)
+  com.dts.adminportal.dts.test.DTSProducts040DTuningState.TC040DTS_08(DTSProducts040DTuningState.java:439)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'PC1416', ip: '172.18.0.105', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+  <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/anh.ho/AppData/Local/Temp/anonymous2588403912942790689webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)
+  <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/anh.ho/AppData/Local/Temp/anonymous2588403912942790689webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)
+  <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/anh.ho/AppData/Local/Temp/anonymous2588403912942790689webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+  <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/anh.ho/AppData/Local/Temp/anonymous2588403912942790689webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TC040DTS_21" time="68.482" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState">
+                <failure type="java.lang.AssertionError"
+                  message="expected [REMOVED] but found [UNSUBMITTED]"
+              >
+<![CDATA[java.lang.AssertionError: expected [REMOVED] but found [UNSUBMITTED]
+  org.testng.Assert.fail(Assert.java:94)
+  org.testng.Assert.failNotEquals(Assert.java:496)
+  org.testng.Assert.assertEquals(Assert.java:125)
+  org.testng.Assert.assertEquals(Assert.java:178)
+  org.testng.Assert.assertEquals(Assert.java:188)
+  com.dts.adminportal.dts.test.DTSProducts040DTuningState.TC040DTS_21(DTSProducts040DTuningState.java:1249)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:774)
+  org.testng.TestRunner.run(TestRunner.java:624)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+  org.testng.SuiteRunner.run(SuiteRunner.java:261)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+  org.testng.TestNG.run(TestNG.java:1024)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="TC040DMS_04" time="145.016" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_15" time="96.057" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_13" time="100.888" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DMS_05" time="140.801" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_05" time="74.291" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_11" time="91.749" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DMS_02" time="125.281" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_17" time="103.345" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_12" time="108.966" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_18" time="127.476" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_03" time="82.621" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_01" time="46.887" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_06" time="79.577" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_20" time="78.243" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_16" time="117.519" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DMS_03" time="136.867" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DMS_01" time="90.626" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_07" time="88.143" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_14" time="71.884" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_09" time="100.752" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_04" time="71.014" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_02" time="84.832" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+                <testcase name="TC040DTS_10" time="99.924" classname="com.dts.adminportal.dts.test.DTSProducts040DTuningState" />
+      
+</testsuite>
